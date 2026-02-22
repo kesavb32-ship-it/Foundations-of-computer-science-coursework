@@ -1,18 +1,25 @@
 # Task 1 — Secure Data Exchange Analysis
 
-This section contains the practical and theoretical analysis of encoding formats
-including ASCII, Base64, Hex and URL Encoding with HTTPS transmission.
+This folder contains the practical experiments and technical demonstrations for **Task 1** of the ST4015CMD Foundations of Computer Science coursework.
 
-It also demonstrates encoding-based attack testing and filter bypass behaviour.
+## Overview
 
+The focus of this task is on:
+
+- Encoding formats: **ASCII, Hex, Base64, URL Encoding**  
+- HTTPS transmission of encoded data  
+- Encoding-based attacks and filter bypass testing  
+
+Screenshots provide visual evidence of experiments, and Python scripts demonstrate encoding behaviors.
+
+---
 
 ## 1. Python Encoding Demo
 
 The following Python script was used to compare ASCII, Hex, Base64, and URL Encoding:
 
 ```python
-#Compare ASCII, Hex, Base64, and URL Encoding
-
+# Compare ASCII, Hex, Base64, and URL Encoding
 import base64
 import urllib.parse
 
@@ -38,18 +45,3 @@ print(f"{'ASCII':<12} | {ascii_encoded}")
 print(f"{'Hex':<12} | {hex_encoded}")
 print(f"{'Base64':<12} | {base64_encoded}")
 print(f"{'URL':<12} | {url_encoded}")
-
-
-## 2. Screenshots of Experiments
-
-**Figure 1 — URL Encoding Test**
-
-![URL Encoding](screenshots/SS1.png)
-
-**Figure 2 — Double Encoding Test**
-
-![Double Encoding](screenshots/SS2.png)
-
-**Figure 3 — Local Decoding Verification**
-
-![PowerShell Decoding](screenshots/SS3.png)
