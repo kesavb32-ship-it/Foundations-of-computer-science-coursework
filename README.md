@@ -44,7 +44,6 @@ The database implementation was performed using **MySQL running inside Docker co
 - MySQL
 - Docker
 - SQL
-- Excel (for initial dataset)
 - Git & GitHub
 
 ---
