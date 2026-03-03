@@ -6,8 +6,13 @@ The project demonstrates key database and computing concepts including **data no
 
 # Tasks Overview
 
-## Task 1
-Introduction to the problem scenario and initial database structure.
+## Task 1 
+
+This task is about:
+
+Encoding formats: ASCII, Hex, Base64, URL Encoding
+HTTPS transmission of encoded data
+Encoding-based attacks and filter bypass testing
 
 ## Task 2
 Analysis of data issues including:
